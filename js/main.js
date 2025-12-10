@@ -1,3 +1,11 @@
+$(function () {
+  AOS.init({
+    duration: 800,
+    easing: 'ease-out',
+    once: true,
+  });
+});
+
 $("#header ul li a").click(function () {
   $("#header ul li a").removeClass("active");
   $(this).addClass("active");
@@ -135,3 +143,4 @@ $(".gotop").click(function () {
     behavior: 'smooth'
   });
 });
+
